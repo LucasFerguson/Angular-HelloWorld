@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BooksComponent } from './books/books.component';
 import { DatabaseService } from './database.service';
+import { AddbookFormComponent } from './addbook-form/addbook-form.component';
 
 @NgModule({
-	declarations: [AppComponent, BooksComponent],
+	declarations: [AppComponent, BooksComponent, AddbookFormComponent],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [DatabaseService],
 	bootstrap: [AppComponent],

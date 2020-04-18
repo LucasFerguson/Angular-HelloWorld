@@ -11,6 +11,8 @@ export class BooksComponent implements OnInit {
 	books: string[];
 	database: DatabaseService;
 
+	inputValue = '';
+
 	constructor(service: DatabaseService) {
 		// let service = new DatabaseService();
 		this.database = service;
@@ -19,7 +21,12 @@ export class BooksComponent implements OnInit {
 
 	onClick(event: Event) {
 		console.log('Click!', event);
-		this.database.addDatabase('New Book');
+		this.database.addDatabase('New Book : ' + this.inputValue);
+	}
+
+	onKey(event: any) {
+		// without type info
+		this.inputValue = event.target.value;
 	}
 
 	ngOnInit(): void {}
