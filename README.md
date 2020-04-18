@@ -1,5 +1,11 @@
 # HelloWorldAngular
 
+Author : Lucas Ferguson
+Date : April 18th 2020
+version : 1.0.0
+
+## Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
