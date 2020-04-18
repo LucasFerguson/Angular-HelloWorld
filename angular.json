@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Hello-World-Angular"
+    }
+  },
+  "defaultProject": "Hello-World-Angular",
+  "cli": {
+    "analytics": "53bc5e92-fcb9-41de-a2cb-41614758e9aa"
+  }
 }
